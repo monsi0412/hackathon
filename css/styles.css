@@ -3,7 +3,9 @@ body {
     width: 100%;
 }
 
-
+#explain{
+    color:white;
+}
 
 .sideImage {
     width: 100%;

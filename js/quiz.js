@@ -14,30 +14,30 @@ $(document).ready(function() {
     $('#sentences').hide(0);
     $('#page').hide(0);
 
-    FADER();
+    FADER(); //This makes page fade in.
 
     function FADER() {
         $('.FADE').hide(0).delay(500).fadeIn(500);
         console.log('done');
     }
 
-    function varLogic() {
+    function varLogic() {  //Counter variable, knows when to set name, teacher, period, and friend variables. 
         console.log(counter);
         if (counter == 0) {
             name = input;
             counter++;
             $('.FADE').fadeOut(500, function() {
-                question.innerHTML = ("<h1>Who is your favorite teacher?</h1>")
+                question.innerHTML = ("<h1 class='questions'>Who is your favorite teacher?</h1>")
                 $('input').val("")
             });
-
+            
             $('.FADE').fadeIn(500);
         }
         else if (counter == 1) {
             teacher = input;
             counter++;
             $('.FADE').fadeOut(500, function() {
-                question.innerHTML = ("<h1>What period do you have this teacher?</h1>")
+                question.innerHTML = ("<h1 class='questions'>What period do you have this teacher?</h1>")
                 $('input').val("");
             });
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
             period = input;
             counter++;
             $('.FADE').fadeOut(500, function() {
-                question.innerHTML = ("<h1>Who is your best friend?</h1>")
+                question.innerHTML = ("<h1 class='questions'>Who is your best friend?</h1>")
                 $('input').val("");
             });
 
@@ -68,6 +68,7 @@ $(document).ready(function() {
         input = $('input').val()
         varLogic();
     });
+    
     $('#page').click(function() {
         window.location.href = "survey.html"
     });
@@ -78,11 +79,10 @@ $(document).ready(function() {
         }
     });
 
-    function Scene() {
+    function Scene() { //Makes it so that text shows on page, using variables. 
         sentences.insertAdjacentHTML('beforeend', "<h3 id='quizText'>" + text + "</h3>");
         $('#holder').hide(0);
         $('#sentences').fadeIn(500);
         $('#page').fadeIn(500);
-
     }
 });

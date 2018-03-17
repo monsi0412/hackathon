@@ -4,13 +4,24 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.fade {
+.questions {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 100px;
+    color:white;
+    font-size: 64px;
 }
 
 #quizText {
     font-size: 45px;
     background-color:black;
     color:white;
+}
+#page{
+    color: white;
+    background-color:black;
+    border-color:white;
+    border-radius: 15px;
+    bottom: 0;
+    right: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
 }

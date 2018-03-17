@@ -1,4 +1,4 @@
-{}
+
 #holder {
     text-align: center;
     padding-top: 15%;
@@ -8,6 +8,7 @@
 .question {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
+    color:white;
 
 }
 
@@ -15,28 +16,31 @@
     font-size: 45px;
 }
 body{
-    background-color: #e74c3c;
+    background-color: #af111c;
 }
 .result{
-    color:white;
+    color:black;
 }
-#resource{
-    color: white;
-    border-radius: 15px;
-    background-color:black;
-    border-color:black;
-    bottom: 0;
-    right: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 30px;
-}
-#submit{
-    color: white;
-    background-color:black;
-    border-color:black;
-    border-radius: 15px;
-    bottom: 0;
-    right: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 30px;
+/*#resource{*/
+/*    color: white;*/
+/*    border-radius: 15px;*/
+/*    background-color:black;*/
+/*    border-color:black;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+/*    font-size: 30px;*/
+/*}*/
+/*#submit{*/
+/*    color: white;*/
+/*    background-color:black;*/
+/*    border-color:black;*/
+/*    border-radius: 15px;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    font-family: 'Source Sans Pro', sans-serif;*/
+/*    font-size: 30px;*/
+/*}*/
+#resource, #submit{
+    font-size:20px;
 }

@@ -9,6 +9,7 @@ $(document).ready(function() {
             results[i].innerHTML = ("<h1>" + choices[i].value + " of people said this.</h1>");
         }
     }
+    
     $('#submit').click(function() {
         var choices = Array.from(document.querySelectorAll('.option')).filter(choice => choice.checked);
         console.log(choices);
@@ -16,4 +17,5 @@ $(document).ready(function() {
         $('#submit').hide(0);
         $('#resource').show(0);
     });
+    
 });
