@@ -1,12 +1,16 @@
-body{
-    text-align:center;
-    padding-top:15%;
+#holder {
+    text-align: center;
+    padding-top: 15%;
     font-family: 'Source Sans Pro', sans-serif;
 }
-h1{
+
+.fade {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size:60px;
+    font-size: 100px;
 }
-h3{
-    font-size:45px;
+
+#quizText {
+    font-size: 45px;
+    background-color:black;
+    color:white;
 }

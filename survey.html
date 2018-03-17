@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Enough is Enough</title>
+    <title>Survey</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,37 +15,102 @@
     <!-- Bootstrap Javascript -->
     <!-- Your Javascript Linked Below-->
     <script src="js/survey.js" defer></script>
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Source+Sans+Pro:200|Dosis" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
     <link rel="icon" href="images/antiGun.png">
   
   </head>
   <body>
-    
+  
     <div class="question">
         
       <h1>What is your take on conducting background checks for guns sold?</h1>
-      <input id='background1' type='radio' name="background" value="strict">
+      <br>
+      <input class="option" id='background1' type='radio' name="background" value="85%">
       <label for ="background1"> Stricter Backgrounds checks </label>
+      <br>
+      <input class="option" id='background2' type='radio' name="background" value="15%">
+      <label for ="background2"> Background checks do not make a difference </label>
       
-      <input id='background2' type='radio' name="background" value="not">
-      <label for ="background2"> Stricter Backgrounds checks </label>
+      <div class ="result"> </div>
       
     </div>
-    
+    <br>
+    <br>
     <div class="question">
       <h1>Gun violence in the U.S is...</h1>
+      <br>
+      <input class="option" id='gun1' type='radio' name="gun" value="32%">
+      <label for ="gun1"> A crisis </label>
+      <br>
+      <input class="option" id='gun2' type='radio' name="gun" value="37%">
+      <label for ="gun2"> Very Serious </label>
+      <br>
+      <input class="option" id='gun3' type='radio' name="gun" value="31%">
+      <label for ="gun3"> Not that serious </label>
+      
+      
+      <div class ="result"> </div>
     </div>
-    
+    <br>
+    <br>
     <div class="question">
       <h1>Would you be comfortable with having teachers carry a firearm during school hours?</h1>
+      <br>
+      <input class="option" id='teacher1' type='radio' name="teacher" value="27%">
+      <label for ="teacher1"> Yes, it's crucial to the safety of children. </label>
+      <br>
+      <input class="option" id='teacher2' type='radio' name="teacher" value="73%">
+      <label for ="teacher2"> No, that makes the situation worse. </label>
+      
+      
+      <div class ="result"> </div>
     </div>
-    
+    <br>
+    <br>
     <div class="question">
       <h1>What would help prevent gun violence?</h1>
+      <br>
+      <input class="option" id='prevent1' type='radio' name="prevent" value="33%">
+      <label for ="prevent1"> Better mental health screening </label>
+      <br>
+      <input class="option" id='prevent2' type='radio' name="prevent" value="24%">
+      <label for ="prevent2"> Tougher Sentences on Criminals </label>
+      <br>
+      <input class="option" id='prevent3' type='radio' name="prevent" value="20%">
+      <label for ="prevent3"> Stricter Gun Laws </label>
+      <br>
+      <input class="option" id='prevent4' type='radio' name="prevent" value="15%">
+      <label for ="prevent4"> More armed guards in public areas. </label>
+      <br>
+      <input class="option" id='prevent5' type='radio' name="prevent" value="8%">
+      <label for ="prevent5"> Allow more law abiding citizens to carry firearms. </label>
+      
+      
+      <div class ="result"> </div>
     </div>  
-    
+    <br>
+    <br>
     <div class="question">
       <h1>Are you concerned about a mass shooting threat where you live?</h1>
+      <br>
+      <input class="option" id='threat1' type='radio' name="threat" value="21%">
+      <label for ="threat1"> Very concerned </label>
+      <br>
+      <input class="option" id='threat2' type='radio' name="threat" value="27%">
+      <label for ="threat2"> Somewhat concerned </label>
+      <br>
+      <input class="option" id='threat3' type='radio' name="threat" value="29%">
+      <label for ="threat3"> Not very concerned </label>
+      <br>
+      <input class="option" id='threat4' type='radio' name="threat" value="23%">
+      <label for ="threat4"> Not at all concerned </label>
+      
+      
+      <div class ="result"> </div>
     </div>  
+    <br>
+    <button id='submit'>Submit </button>
     
+    
+     <button id= 'resource'><a href="resource_pg.html">Click here to learn more</a></button>
   </body>

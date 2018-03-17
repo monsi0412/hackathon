@@ -1,0 +1,42 @@
+{}
+#holder {
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.question {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+
+}
+
+#quizText {
+    font-size: 45px;
+}
+body{
+    background-color: #e74c3c;
+}
+.result{
+    color:white;
+}
+#resource{
+    color: white;
+    border-radius: 15px;
+    background-color:black;
+    border-color:black;
+    bottom: 0;
+    right: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+#submit{
+    color: white;
+    background-color:black;
+    border-color:black;
+    border-radius: 15px;
+    bottom: 0;
+    right: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
