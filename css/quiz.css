@@ -1,4 +1,12 @@
 body{
     text-align:center;
     padding-top:15%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:60px;
+}
+h3{
+    font-size:45px;
 }

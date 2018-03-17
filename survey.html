@@ -7,30 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <!-- Your CSS Linked Below-->
-    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/survey.css">
     <!-- jQuery Linked Below-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" integrity="" crossorigin=""></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Bootstrap Javascript -->
     <!-- Your Javascript Linked Below-->
-    <script src="js/quiz.js" defer></script>
+    <script src="js/survey.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Source+Sans+Pro:200|Dosis" rel="stylesheet">
     <link rel="icon" href="images/antiGun.png">
   
   </head>
   <body>
-    <div id = 'holder'> 
-      <h1 class ="FADE" id="QUESTION"> What is your name?</h1>
-      <input class="FADE">
-      <button class="FADE" id ="submit"> Click Here to Submit  </button> 
-      <h1 id ="transition">Thank you. Here's your story.</h1>
+    
+    <div class="question">
+        
+      <h1>What is your take on conducting background checks for guns sold?</h1>
+      <input id='background1' type='radio' name="background" value="strict">
+      <label for ="background1"> Stricter Backgrounds checks </label>
+      
+      <input id='background2' type='radio' name="background" value="not">
+      <label for ="background2"> Stricter Backgrounds checks </label>
+      
     </div>
     
-    <div id = 'sentences'>
+    <div class="question">
+      <h1>Gun violence in the U.S is...</h1>
     </div>
-    <button id ='page'> Go to Survey</button>
     
+    <div class="question">
+      <h1>Would you be comfortable with having teachers carry a firearm during school hours?</h1>
+    </div>
+    
+    <div class="question">
+      <h1>What would help prevent gun violence?</h1>
+    </div>  
+    
+    <div class="question">
+      <h1>Are you concerned about a mass shooting threat where you live?</h1>
+    </div>  
     
   </body>
-</html>

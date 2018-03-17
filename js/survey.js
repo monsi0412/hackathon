@@ -1,0 +1,1 @@
+let choice = document.querySelector('#background1');
